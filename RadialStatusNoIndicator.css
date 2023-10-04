@@ -1,0 +1,13 @@
+/**
+ * @name No RadialStatus Mobile Indicator
+ * @author Littlepriconu
+ * @version 1.0.0
+ * @description Use with RadialStatus enabled, removes the phone icon when using the "PlatformIndicator" Vencord Plugin.
+ * @source https://github.com/DiscordStyles/RadialStatus
+ * @website https://littlepriceonu.com
+*/
+
+/** Yea, thats it */
+#app-mount .wrapper-3Un6-K foreignobject[mask*="mobile"]::after {
+    content: none;
+}
